@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fishig Guide Service 東屋</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header class="header_wrapper">
+        <h1 id="logo">
+            <a href="index.html">
+                <img src="img/logo.png" alt="ロゴ">
+            </a>
+        </h1>
+        <button id="toggle_btn">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <div class="mask"> </div>
+        <div id="menu">
+            <ul>
+                <li><a href="blog.index">予約</a></li>
+                <li><a href="news.index">News</a></li>
+                <li><a href="profile.index">Profile</a></li>
+                <li><a href="fishing_result.index">釣果情報</a></li>
+                <li><a href="blog.index">Blog</a></li>
+                <li><a href="#access">ACCESS</a></li>
+                <li><a href="rule.index">利用規約</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+       
+        <section id="main_visual">
+                <video class="first_view_sp" src="img/firstview_sp.MP4" autoplay muted loop playsinline></video>
+                <video class="first_view_pc" src="img/FirstView_pc.mp4" autoplay muted loop playsinline></video>
+        </section>
+            <a class="reservation" href="">
+                <img src="img/カレンダー.png" alt="">
+                    <p>ご予約はこちらから！<br>
+                        ネット予約、ネット決済が可能です！</p>
+            </a>
+        <section id="news_profile" class="container">
+            <div id="news">
+                <h2 class="content_ttl">News</h2>
+                    <div class="news_content">
+                        <ul>
+                            <li>
+                                <a href="">
+                                        <h3 class="news_ttl">タイトル</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                        <h3 class="news_ttl">タイトルタイトル</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                        <h3 class="news_ttl">タイトルタイトル</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                        <h3 class="news_ttl">タイトルタイトル</h3>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                        <h3 class="news_ttl">タイトルタイトル</h3>
+                                </a>
+                            </li>
+                            <li class="to_news"><a href="">もっと見る</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div id="profile_top">
+                <h2 class="content_ttl">Profile</h2>
+                    <img src="/img/profile.JPG" alt="">
+                        <div class="profile_overview">
+                            <p>東　智也</p>
+                            <p>三重県出身　1995年生まれ</p>
+                        </div>
+                        <div class="to_profile_detail">
+                            <a href="profile.index">もっと詳しく</a>
+                        </div>
+
+                    <div class="sns-link">
+                            <a href="" class="link">
+                                <img src="img/instaglam.png" alt="">
+                                <p>Instaram</p>
+                            </a>
+                            <a href="" class="link">
+                                <img src="img/facebook.png" alt="">
+                                <p>FaceBook</p>
+                            </a>
+                        </div>
+            </div>
+        </section>
+        <section id="fishing_result" class="container">
+            <h2 class="content_ttl">釣果情報</h2>
+            <div class="fishing_result_wrapper">
+                <div class="fishing_result_content">
+                        <a href="" class="result_content_inner">
+                            <img src="img/釣果.jpg" alt="">
+                            <h3 class="blog_ttl">タイトルタイトルタイトルタイトル</h3>
+                        </a>
+                        <a href="" class="result_content_inner">
+                            <img src="img/釣果.jpg" alt="">
+                            <h3 class="blog_ttl">タイトルタイトルタイトルタイトル</h3>
+                        </a>
+                        <a href="" class="result_content_inner">
+                            <img src="img/釣果.jpg" alt="">
+                            <h3 class="blog_ttl">タイトルタイトルタイトルタイトル</h3>
+                        </a>
+                        <a href="" class="result_content_inner">
+                            <img src="img/釣果.jpg" alt="">
+                            <h3 class="blog_ttl">タイトルタイトルタイトルタイトル</h3>
+                        </a>
+                        <a href="" class="result_content_inner">
+                            <img src="img/釣果.jpg" alt="">
+                            <h3 class="blog_ttl">タイトルタイトルタイトルタイトル</h3>
+                        </a>
+                </div>
+                <div class="to_fishing_result">
+                    <a href="profile.index">もっと見る</a>
+                </div>
+            </div>
+        </section>
+        <section id="blog" class="container">
+            <h2 class="content_ttl">Blog</h2>
+            <div class="blog_wrapper">
+                <div class="blog_content">
+                    <a href="" class="blog_content_inner">
+                        <img src="img/blog.JPG" alt="">
+                        <h3 class="blog_ttl">タイトルタイトルタイトルタイトル</h3>
+                    </a>
+                    <a href="" class="blog_content_inner">
+                        <img src="img/blog2.JPG" alt="">
+                        <h3 class="blog_ttl">タイトルタイトルタイトルタイトル</h3>
+                    </a>
+                    <a href="" class="blog_content_inner">
+                        <img src="img/blog.JPG" alt="">
+                        <h3 class="blog_ttl">タイトルタイトルタイトルタイトル</h3>
+                    </a>
+                    <a href="" class="blog_content_inner">
+                        <img src="img/blog2.JPG" alt="">
+                        <h3 class="blog_ttl">タイトルタイトルタイトルタイトル</h3>
+                    </a>
+                    <a href="" class="blog_content_inner">
+                        <img src="img/blog.JPG" alt="">
+                        <h3 class="blog_ttl">タイトルタイトルタイトルタイトル</h3>
+                    </a>
+            </div>
+            <div class="to_blog">
+                <a href="profile.index">もっと見る</a>
+            </div>
+            </div>
+        </section>
+        <section id="access" class="container">
+            <h2 class="content_ttl">ACCESS</h2>
+                <p>MIC BASS CLUB<br>
+                    〒520-0102 <br> 
+                    滋賀県 大津市苗鹿 3丁目227
+                </p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3265.0016680303124!2d135.8918008757611!3d35.081691072786754!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzXCsDA0JzU0LjEiTiAxMzXCsDUzJzM5LjgiRQ!5e0!3m2!1sja!2sjp!4v1720105778299!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <footer>
+            <p><small>Fishing Guide Service 東屋</small></p>
+        </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="JS/main.js"></script>
+    </main>
+</body>
+</html>
